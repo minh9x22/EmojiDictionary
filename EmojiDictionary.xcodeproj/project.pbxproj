@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F340F2C924AC13420004CF2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340F2C824AC13420004CF2D /* AppDelegate.swift */; };
+		F340F2CB24AC13420004CF2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340F2CA24AC13420004CF2D /* SceneDelegate.swift */; };
+		F340F2D024AC13420004CF2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F340F2CE24AC13420004CF2D /* Main.storyboard */; };
+		F340F2D324AC13420004CF2D /* EmojiDictionary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F340F2D124AC13420004CF2D /* EmojiDictionary.xcdatamodeld */; };
+		F340F2D524AC13430004CF2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F340F2D424AC13430004CF2D /* Assets.xcassets */; };
+		F340F2D824AC13430004CF2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F340F2D624AC13430004CF2D /* LaunchScreen.storyboard */; };
+		F340F2E024AC140C0004CF2D /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340F2DF24AC140C0004CF2D /* Emoji.swift */; };
+		F340F2E424AC17980004CF2D /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F340F2E324AC17980004CF2D /* EmojiTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F340F2C524AC13420004CF2D /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F340F2C824AC13420004CF2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F340F2CA24AC13420004CF2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F340F2CF24AC13420004CF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F340F2D224AC13420004CF2D /* EmojiDictionary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmojiDictionary.xcdatamodel; sourceTree = "<group>"; };
+		F340F2D424AC13430004CF2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F340F2D724AC13430004CF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F340F2D924AC13430004CF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F340F2DF24AC140C0004CF2D /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		F340F2E324AC17980004CF2D /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F340F2C224AC13420004CF2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F340F2BC24AC13420004CF2D = {
+			isa = PBXGroup;
+			children = (
+				F340F2C724AC13420004CF2D /* EmojiDictionary */,
+				F340F2C624AC13420004CF2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F340F2C624AC13420004CF2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F340F2C524AC13420004CF2D /* EmojiDictionary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F340F2C724AC13420004CF2D /* EmojiDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F340F2C824AC13420004CF2D /* AppDelegate.swift */,
+				F340F2CA24AC13420004CF2D /* SceneDelegate.swift */,
+				F340F2D424AC13430004CF2D /* Assets.xcassets */,
+				F340F2D624AC13430004CF2D /* LaunchScreen.storyboard */,
+				F340F2D924AC13430004CF2D /* Info.plist */,
+				F340F2D124AC13420004CF2D /* EmojiDictionary.xcdatamodeld */,
+				F340F2DF24AC140C0004CF2D /* Emoji.swift */,
+				F340F2CE24AC13420004CF2D /* Main.storyboard */,
+				F340F2E324AC17980004CF2D /* EmojiTableViewController.swift */,
+			);
+			path = EmojiDictionary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F340F2C424AC13420004CF2D /* EmojiDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F340F2DC24AC13430004CF2D /* Build configuration list for PBXNativeTarget "EmojiDictionary" */;
+			buildPhases = (
+				F340F2C124AC13420004CF2D /* Sources */,
+				F340F2C224AC13420004CF2D /* Frameworks */,
+				F340F2C324AC13420004CF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmojiDictionary;
+			productName = EmojiDictionary;
+			productReference = F340F2C524AC13420004CF2D /* EmojiDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F340F2BD24AC13420004CF2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = minhLTBVU;
+				TargetAttributes = {
+					F340F2C424AC13420004CF2D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F340F2C024AC13420004CF2D /* Build configuration list for PBXProject "EmojiDictionary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F340F2BC24AC13420004CF2D;
+			productRefGroup = F340F2C624AC13420004CF2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F340F2C424AC13420004CF2D /* EmojiDictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F340F2C324AC13420004CF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F340F2D824AC13430004CF2D /* LaunchScreen.storyboard in Resources */,
+				F340F2D524AC13430004CF2D /* Assets.xcassets in Resources */,
+				F340F2D024AC13420004CF2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F340F2C124AC13420004CF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F340F2C924AC13420004CF2D /* AppDelegate.swift in Sources */,
+				F340F2D324AC13420004CF2D /* EmojiDictionary.xcdatamodeld in Sources */,
+				F340F2E024AC140C0004CF2D /* Emoji.swift in Sources */,
+				F340F2CB24AC13420004CF2D /* SceneDelegate.swift in Sources */,
+				F340F2E424AC17980004CF2D /* EmojiTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F340F2CE24AC13420004CF2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F340F2CF24AC13420004CF2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F340F2D624AC13430004CF2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F340F2D724AC13430004CF2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F340F2DA24AC13430004CF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F340F2DB24AC13430004CF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F340F2DD24AC13430004CF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojiDictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bvu.com.EmojiDictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F340F2DE24AC13430004CF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmojiDictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bvu.com.EmojiDictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F340F2C024AC13420004CF2D /* Build configuration list for PBXProject "EmojiDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F340F2DA24AC13430004CF2D /* Debug */,
+				F340F2DB24AC13430004CF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F340F2DC24AC13430004CF2D /* Build configuration list for PBXNativeTarget "EmojiDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F340F2DD24AC13430004CF2D /* Debug */,
+				F340F2DE24AC13430004CF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F340F2D124AC13420004CF2D /* EmojiDictionary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F340F2D224AC13420004CF2D /* EmojiDictionary.xcdatamodel */,
+			);
+			currentVersion = F340F2D224AC13420004CF2D /* EmojiDictionary.xcdatamodel */;
+			path = EmojiDictionary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F340F2BD24AC13420004CF2D /* Project object */;
+}
